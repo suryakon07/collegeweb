@@ -1,0 +1,163 @@
+<html>
+<head><title>aditya admissions</title>
+</head>
+<style>
+img{
+
+</style>
+<body><center><h1>ADITYA DEGREE COLLEGE | KAKINADA</h1></center>
+<hr>
+<h2><marquee>ADMISSIONS OPEN  |  WELCOME FRESHERS  |  KAKINADA</marquee></h2>
+<a href="C:\Users\saisuryakonchada\OneDrive\Desktop\college website\album.html"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-05 at 21.47.05_cca558e7.jpg" style="position:fixed;right:10px;top:150px;width:500px;" ></a>
+
+<img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-05 at 18.14.47_215517d7.jpg" height="60" ;width="100">
+
+<a href="C:\Users\saisuryakonchada\OneDrive\Desktop\college website\admission.html"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-05 at 18.24.14_b143ec37.jpg" height="60" ;width="100"></a>
+
+<a href="C:\Users\saisuryakonchada\OneDrive\Desktop\college website\courses.html"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-05 at 18.29.16_6122347e.jpg" height="60" ;width="100"></a>
+
+
+<a href="C:\Users\saisuryakonchada\OneDrive\Desktop\college website\news.html"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-05 at 22.11.38_5b5fa519.jpg"height="60" ;width="100"></a>
+
+<a href="C:\Users\saisuryakonchada\OneDrive\Desktop\college website\contact.html"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-05 at 22.16.20_4ec3cc44.jpg" height="60" ;width="100"></a>
+<img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-07 at 15.53.00_a03e17a6.jpg" height="230"><br>
+<img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-10 at 14.07.14_fe5b4ac9.jpg" height="300"><br>
+<img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-09 at 15.50.24_63390e22.jpg" height="300"><br>
+<img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-09 at 15.55.27_94ca74cf.jpg" height="300"><br>
+<h2>STUDENT PORTAL</h2>
+<a href="https://analysis.aditya.ac.in/v23/student/#/"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-07 at 16.01.51_3d26996c.jpg" height=200; width=200></a>
+<a href="https://abhyas.ai/beta/#/"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-07 at 16.05.04_972d7c90.jpg" height=200></a>
+<a href="https://abhyas.ai/lab/#/"><img src="C:\Users\saisuryakonchada\OneDrive\Desktop\WhatsApp Image 2025-07-07 at 19.36.41_4a3cd6dd.jpg" height=200></a>
+<!-- 💬 Chatbot Button -->
+<button id="chat-toggle">💬</button>
+
+<!-- 💬 Chatbot Window -->
+<div id="chat-container">
+  <div id="chat-header">Ask Us Anything!</div>
+  <div id="chat-body"></div>
+  <div id="chat-input">
+    <input type="text" id="user-input" placeholder="Type your question..." />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<!-- 💬 Styles -->
+<style>
+  #chat-container {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  #chat-header {
+    background: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+  }
+  #chat-body {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background: white;
+  }
+  #chat-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  #user-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  #send-btn {
+    padding: 10px;
+    background: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .message {
+    margin: 5px 0;
+  }
+  .user { text-align: right; color: blue; }
+  .bot { text-align: left; color: green; }
+  #chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #003366;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+</style>
+
+<!-- 💬 Script -->
+<script>
+  const toggleBtn = document.getElementById('chat-toggle');
+  const chatBox = document.getElementById('chat-container');
+  const sendBtn = document.getElementById('send-btn');
+  const userInput = document.getElementById('user-input');
+  const chatBody = document.getElementById('chat-body');
+
+  toggleBtn.onclick = () => {
+    chatBox.style.display = chatBox.style.display === 'flex' ? 'none' : 'flex';
+  };
+
+  const botReplies = {
+    "hello": "Hi! How can I help you today?",
+    "admission": "You can apply online through our Admission Portal on the homepage.",
+    "courses": "We offer B.Sc, B.Com, BBA,BCA,BCA-DS and more. Visit our Courses section.",
+    "fees": "The average annual fee is ₹20,000 - ₹65,000 depending on the course.",
+    "hostel": "Yes, we have separate hostels for girls with full facilities.",
+    "contact": "You can reach us at 0884 237 66665 or email adcdegclg@gmail.com"
+  };
+
+  function getBotReply(msg) {
+    msg = msg.toLowerCase();
+    return botReplies[msg] || "Sorry, I don't understand. Please contact the college office.";
+  }
+
+  function sendMessage() {
+    const userText = userInput.value.trim();
+    if (userText === "") return;
+
+    const userMsg = document.createElement("div");
+    userMsg.className = "message user";
+    userMsg.innerText = userText;
+    chatBody.appendChild(userMsg);
+
+    const botMsg = document.createElement("div");
+    botMsg.className = "message bot";
+    botMsg.innerText = getBotReply(userText);
+    chatBody.appendChild(botMsg);
+
+    userInput.value = "";
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+  sendBtn.onclick = sendMessage;
+
+  userInput.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      sendMessage();
+    }
+  });
+</script>
+</body>
+</html>
